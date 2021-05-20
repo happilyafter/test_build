@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Layout Satu</title>
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navigation-bar">
+      <a class="tablink" onclick="openPage('Home', this, '#7f8c8d')">Beranda <span class="sr-only">(current)</span></a>
+      <a class="tablink" onclick="openPage('Couple', this, '#7f8c8d')">Pengantin</a>
+      <a class="tablink" onclick="openPage('Event', this, '#7f8c8d')">Acara</a>
+      <a class="tablink" onclick="openPage('Moment', this, '#7f8c8d')">Momen</a>
+    </nav><!-- End Navbar -->
+
+    <!-- HOME -->
+    <div id="Home" class="tabcontent" style="display: block;">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <span>We are Getting Married</span>
+          <h1 class="coreFont">Iwan & Rika</h1>
+          <p class="lead mt-2">Senin, 26 Juli 2021</p>
+          <a target="_blank" href="https://calendar.google.com/calendar/u/0/r/eventedit?text=Wedding+Iwan+Dan+Rika&dates=20210726/20210727" class="btn btn-secondary" >Simpan Tanggal</a>
+        </div>
+
+        <!-- <audio controls id="musik" style="opacity: 0;">
+          <source src="dist/audio/Shania-Twain-You-re-Still-The-On.mp3" type="audio/mpeg"  autoplay>
+          Your browser does not support the audio element.
+        </audio> -->
+
+      </div><!-- end jumbotron -->
+    </div><!-- End HOME -->
+
+    <!-- Couple -->
+    <div id="Couple" class="tabcontent bg-content" style="display: none;">
+      <div class="container pb-5">
+        <div class="content-head col-12 col-lg-6 mx-auto pb-3 px-0 m-0">
+          <img src="img/ornament.png" alt="" class="img-fluid w-50 pb-2">
+          <h3 class="coreFont">Bismillahirrahmanirrahim</h3>
+          <p class="font-weight-light">Maha suci Allah yang menciptakan makhluk-Nya berpasang-pasangan. Ya Allah, perkenankanlah kami merangkaikan kasih sayang yang Kau ciptakan diantara kami</p>
+        </div>
+
+        <div class="body-couple">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-lg-5 text-center p-0 m-0">
+                <img src="img/profil.jpg" alt="mempelai_pria" >
+                <h3 class="pt-2 coreFont" >Iwan Setiawandi</h3>
+                <p class="font-weight-light">Putra dari Bapak Ujang Sopyan Abdul Djalil (Alm.) dan Ibu Iis Islah</p>
+              </div>
+              <div class="col-12 col-lg-2 d-flex justify-content-center align-items-center px-0 pb-3 pt-2 m-0">
+                <h1 class="coreFont">&</h1>
+              </div>
+              <div class="col-12 col-lg-5 text-center p-0 m-0" >
+                <img src="img/profil2.jpg" alt="mempelai_wanit">
+                <h3 class="pt-2 coreFont">Rika Nurazizah Amd.Par</h3>
+                <p class="pb-5 font-weight-light">Putri dari Bapak Ade dan Ibu Roheni(Eni)</p>
+              </div>
+            </div><!-- end row -->
+          </div><!-- end container body -->
+        </div><!-- end body couple -->
+      </div><!-- end container -->
+    </div><!-- End Couple -->
+
+    <!-- Event -->
+    <div id="Event" class="tabcontent bg-content" style="display: none;">
+      <div class="container pb-5">
+        <div class="content-head col-12 col-lg-6 mx-auto pb-3 px-0 m-0">
+          <img src="img/ornament.png" alt="" class="img-fluid w-50 pb-2">
+          <h3 class="coreFont">Acara Kita</h3>
+          <p class="font-weight-light">Dengan memohon rahmat dan ridha Allah Subhanahu Wa Ta'ala, kami bermaksud menyelenggarakan pernikahan kami yang Insya Allah akan dilaksanakan pada:</p>
+        </div>
+
+        <div class="body-event"> 
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-12 col-md-5" >
+              <div class="card bg-transparent">
+                <div class="card-body text-center" >
+                  <h5 class="card-title">Akad</h5>
+                  <i class="bi bi-calendar-event"> &nbsp Senin, 26 Juli 2021</i><br>
+                  <i class="bi bi-watch"> &nbsp; 08.00 WIB s/d Selesai </i><br>
+                  <i class="bi bi-geo-alt"> &nbsp;Lokasi akad Kediaman Mempelai Wanita</i><br>
+                  <a href="#" class="btn btn-custom mt-3" style="opacity: 0;">Lihat Siaran Langsung</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-5">
+              <div class="card bg-transparent">
+                <div class="card-body">
+                  <h5 class="card-title">Resepsi</h5>
+                  <i class="bi bi-calendar-event"> &nbsp; Senin, 26 Juli 2021</i><br>
+                  <i class="bi bi-watch"> &nbsp; 11.00 WIB s/d 15.00 </i><br>
+                  <i class="bi bi-geo-alt"> &nbsp;Lokasi akad Kediaman Mempelai Wanita</i><br>
+                  <a href="https://goo.gl/maps/8TtWC4cBNFZCXTnMA" class="btn btn-secondary mt-3">Buka Dengan Google Map</a>
+                </div>
+              </div>
+            </div>
+          </div><!-- row-end -->
+
+           <!-- countdown -->
+           <div class="row pt-5 pb-5">
+            <div class="col-12 col-lg-6 mx-auto">
+              <div class="card bg-transparent">
+                <div class="card-body text-center">
+                  <h1 class="coreFont">Senin</h1>
+                      <h4>26 Juli 2021</h4><br>
+                      <div class="countdown d-flex justify-content-center pb-3" data-count="2021/07/26">
+                        <div class="col-3">
+                          <h4>%D</h4>
+                          <h5>Hari</h5>
+                        </div>
+                        <div class="col-3">
+                          <h4>%H</h4>
+                          <h5>Jam</h5>
+                        </div>
+                        <div class="col-3">
+                          <h4>%M</h4>
+                          <h5>Menit</h5>
+                        </div>
+                        <div class="col-3">
+                          <h4>%S</h4>
+                          <h5>Detik</h5>
+                        </div>
+                      </div>
+                      <a target="_blank" href="https://calendar.google.com/calendar/u/0/r/eventedit?text=Wedding+Iwan+Dan+Rika&dates=20210726/20210727" class="btn btn-secondary text-white my-3" >Simpan ke Google Kalender</a>
+                      <p class="font-weight-light">"Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak /Ibu/Saudara/I berkenaan hadir pada acara resepsi untuk memberikan restu"</p>
+                </div>
+              </div>
+            </div>
+          </div><!-- countdown End -->
+        </div><!-- end body-event -->
+      </div>
+    </div><!-- End Event -->
+
+    <!-- Moment -->
+    <div id="Moment" class="tabcontent bg-content" style="display: none;">
+      <div class="container pb-5">
+
+        <div class="content-head col-12 col-lg-6 mx-auto pb-3 px-0 m-0">
+          <img src="img/ornament.png" alt="" class="img-fluid w-50 pb-2">
+          <h3 class="coreFont">Cerita Cinta</h3>
+          <p class="font-weight-light">Dan diantara tanda-tanda kekuasan-Nya ialah Dia menciptakan untukmu isteri-isteri dari jenismu sendiri, supaya kamu cenderung dan merasa tentram kepadanya, dan dijadikan-Nya diantaramu rasa kasih dan sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang berfikir.</p>
+          <p><b style="font-style: italic;">QS Ar-Rum:21</b></p>
+        </div><!-- end content-head -->
+
+        <div class="body-moment">
+          <div class="container py-2">
+            <div class="row text-center text-white mb-5">
+              
+                <div class="col-lg-7  mx-auto">
+                  <ul class="timeline">
+                    <li class="timeline-item bg-transparent bg-gradient rounded ml-3 p-4 shadow">
+                        <div class="timeline-arrow"></div>
+                        <h2 class="h5 mb-0 coreFont">Awal Pertemuan</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>2 Desember 2019</span>
+                        <p class="text-small mt-2 font-weight-light">Tuhan mentakdirkan kita pada hari ini untuk bertemu.</p>
+                    </li>
+                    <li class="timeline-item bg-transparent bg-gradient rounded ml-3 p-4 shadow">
+                        <div class="timeline-arrow"></div>
+                        <h2 class="h5 mb-0 coreFont">Menjalani Hubungan</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>7 Februari 2020</span>
+                        <p class="text-small mt-2 font-weight-light">Pada tanggal ini, merupakan awal dari sebuah perjalanan cinta kami untuk bisa saling berkomitmen antara satu sama lain.</p>
+                    </li>
+                    <li class="timeline-item bg-transparent bg-gradient rounded ml-3 p-4 shadow">
+                        <div class="timeline-arrow"></div>
+                        <h2 class="h5 mb-0 coreFont">Engagement Day</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>14 September 2020</span>
+                        <p class="text-small mt-2 font-weight-light">Momen spesial kami akan dimulai dari titik ini, momen kebahagiaan kami bersama unutk membangun keluarga kecil kami</p>
+                    </li>
+                  </ul><!-- end timeline -->
+                </div>
+              </div>
+            </div>
+          </div><!-- end body-moment -->
+
+      
+          <div id="gallery" class="container">
+            <div class="gl-tittle text-center py-2 title-primary">
+              <h3 class="coreFont">Album Foto</h3>
+            </div>
+
+            <div class="gl-item">
+              <div class="col-12">
+                <div class="grid">
+                  <div class="item img-thumbnail" style="background-image: url(img/1.JPG)"></div>
+                  <div class="item img-thumbnail" style="background-image: url(img/2.JPG)"></div>
+                  <div class="item img-thumbnail" style="background-image: url(img/3.JPG)"></div>
+                  <div class="item img-thumbnail" style="background-image: url(img/4.JPG)"></div>
+                  <div class="item img-thumbnail" style="background-image: url(img/5.jpg)"></div>
+                </div>
+              </div>
+            </div><!-- end gl-item -->
+          </div><!-- end gallery -->
+      </div><!-- end container -->
+    </div><!-- End Moment -->
+
+  </body>
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.bundle.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/main.js"></script>
+</html>
